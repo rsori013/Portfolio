@@ -1,3 +1,15 @@
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const yesButton = document.getElementById('yes');
+  if (yesButton) {
+    yesButton.addEventListener('click', function() {
+      // Redirects to index2.html when the "Yes" button is clicked
+      window.location.href = 'index2.html';
+    });
+  }
+});
+
+
 const container = document.getElementById("mainDiv");
 const btnYes = document.querySelector(".btn-yes");
 const btnNo = document.querySelector(".btn-no");
@@ -57,3 +69,5 @@ $(document).ready(function() {
             .removeClass('open');
     }
 })
+
+
