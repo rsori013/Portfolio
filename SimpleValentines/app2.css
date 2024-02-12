@@ -11,7 +11,7 @@
   
   body{
     margin: 0;
-    padding: 0;
+    padding-top: 10px;
     box-sizing: border-box;
     background: (--bg-color);
     display: flex;
@@ -33,7 +33,7 @@
   .envelope-wrapper > .envelope {
     position: relative;
     width: 300px;
-    height: 230px;
+    height: 250px;
   }
 
   .envelope-wrapper > .envelope::before{
@@ -41,7 +41,7 @@
     position: absolute;
     top: 0;
     z-index: 2;
-    border-top: 130px solid var(--envelope-tab);
+    border-top: 150px solid var(--envelope-tab);
     border-right: 150px solid transparent;
     border-left: 150px solid transparent;
   }
@@ -52,7 +52,7 @@
     z-index: 2;
     width: 0px;
     height : 0px;
-    border-top: 130px solid transparent;
+    border-top: 150px solid transparent;
     border-right: 150px solid var(--envelope-cover);
     border-bottom: 100px solid var(--envelope-cover);
     border-left:150px solid var(--envelope-cover);
@@ -64,12 +64,12 @@
     right: 20%;
     bottom: 0;
     width: 54%;
-    height: 80%;
+    height: 90%;
     background: var(--primary);
     text-align: center;
     transition: all 1s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 
   .envelope > .letter > .text {
@@ -83,9 +83,9 @@
     height: 20px;
     width: 20px;
   } */
-  .heart{
+  .heart {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     width: 15px;
     height: 15px;
@@ -135,4 +135,19 @@
   .flap > .heart{
     transform: rotate(90deg);
     transition-delay: 0.4s;
+  }
+
+  .tap{
+    font-family: cursive;
+    font-size: 80px;
+  }
+
+  img{
+    height: 100px;
+    width: 100px;
+    padding-top: 60px;
+  }
+
+  .top{
+    display:flex;
   }

@@ -65,12 +65,16 @@
     left: 50%;
     transform: translateX(calc(-100% - 1rem));
     z-index: 1;
+    background-color:rgb(107, 209, 107);
+    color: white;
   }
   
   .btn-no {
     left: calc(50% + 1rem);
     transition: all 0.5s ease;
     z-index: 2;
+    background-color:red;
+    color: white;
   }
 
 
