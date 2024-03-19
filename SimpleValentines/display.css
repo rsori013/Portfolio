@@ -1,0 +1,14 @@
+.main-container{
+    width: 100vh;
+    background-color: rgb(235, 189, 189);
+}
+
+.rows {
+    background-color: rgb(214, 214, 252);
+    position: inline;
+
+}
+
+.columns {
+    background-color: rgb(208, 194, 230);
+}
